@@ -1,0 +1,48 @@
+Welcome to Jump61.  Below is a list of commands:
+
+clear: Abandons the current game (if one is in progress), and clears the board to its initial
+	   conﬁguration (all squares neutral). Playing stops until the next start command. 
+
+start: Start playing from the current position, if not doing so already (has no effect if 
+	   currently playing).  Takes moves alternately from Red and Blue according to their color.
+
+quit: Exits the program
+
+auto <P>: Stops the current game until the next start command and causes player P to be
+	     played by an automated player (an AI) on subsequent moves. The value P must be “red”
+ 	     or “blue”. Initially, Blue is an automated player.
+      
+manual <P>: Stops the current game until the next start command and causes player P to
+	       take moves from the terminal on subsequent moves. The value of P is as for the auto
+           command. Initially, Red is a manual player.
+
+size <N>: 	Stops any current game, clears the board to its initial conﬁguration, and sets the
+		 	size of the board to N squares. Initially, N = 6.
+
+move <N>: 	Stop any current game, set the number of the next move N. You usually use this
+		 	command after setting up an initial position (with set commands.) Initially, the number
+		 	of the next move is 1.
+		 
+set <R C N P>: Stop any current game. Put N spots at row R and column C. P
+              is either "b" or "r" (for blue or red,) indicating the color of the square. 
+              When N is 0, P is ignored and the square is cleared.
+              
+dump:         Prints out the current state of the board.
+
+seed <N>:      Sets the random seed to N.
+
+verbose:     Shows the board at the end of each move (save as dump)
+
+quiet:        Stops showing the board at the end of each move
+
+prev:        Lists the previous commands made.
+
+
+<R> <C> : 	  Adds a spot to the square at row R, column C, where R and C are integers in the range
+		      1 to the current board size. Rows are numbered from the top, columns from the left.
+
+
+
+
+
+
