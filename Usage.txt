@@ -1,0 +1,11 @@
+Usage: 
+ 
+java jump61.Main <INPUTFILE>
+
+<INPUTFILE> is an optional command that feeds the
+Jump61 a sequence of commands.
+
+
+java jump61.main --display
+
+Starts a Graphical User Interface to play a game of jump61.
